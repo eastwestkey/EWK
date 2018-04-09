@@ -157,9 +157,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x9cd2300653c0bd9882032341276958932205af16bf265ef7e7499d7ad421cb61"));
 
 		vFixedSeeds.clear();
-		vSeeds.push_back(CDNSSeedData("atdollarexchange.com", "seeds.atdollarexchange.com"));
-		vSeeds.push_back(CDNSSeedData("atdollarcenter.com", "seeds.atdollarcenter.com"));
-		//vSeeds.push_back(CDNSSeedData("atdollar.org", "seeds.atdollar.org"));
+		vSeeds.push_back(CDNSSeedData("eastwestkey.com", "seeds.eastwestkey.com"));
         // vSeeds.push_back(CDNSSeedData("bitcoin.sipa.be", "seed.bitcoin.sipa.be"));
         // vSeeds.push_back(CDNSSeedData("bluematt.me", "dnsseed.bluematt.me"));
         // vSeeds.push_back(CDNSSeedData("dashjr.org", "dnsseed.bitcoin.dashjr.org"));

@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "MTC"
-            VALUE "FileDescription",    "MTC-cli (OSS RPC client for MTC)"
+            VALUE "CompanyName",        "EWK"
+            VALUE "FileDescription",    "EWK-cli (OSS RPC client for EWK)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "mtc-cli"
+            VALUE "InternalName",       "ewk-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "mtc-cli.exe"
-            VALUE "ProductName",        "MTC-cli"
+            VALUE "OriginalFilename",   "ewk-cli.exe"
+            VALUE "ProductName",        "EWK-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
