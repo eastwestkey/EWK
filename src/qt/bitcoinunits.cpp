@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2013 The MTC developers
+// Copyright (c) 2011-2013 The EWK developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -17,9 +17,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(MTC);
-//    unitlist.append(mMTC);
-//    unitlist.append(uMTC);
+    unitlist.append(EWK);
+//    unitlist.append(mEWK);
+//    unitlist.append(uEWK);
     return unitlist;
 }
 
@@ -27,9 +27,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case MTC:
-    case mMTC:
-    case uMTC:
+    case EWK:
+    case mEWK:
+    case uEWK:
         return true;
     default:
         return false;
@@ -40,9 +40,9 @@ QString BitcoinUnits::id(int unit)
 {
     switch(unit)
     {
-    case MTC: return QString("mtc");
-    case mMTC: return QString("mmtc");
-    case uMTC: return QString("utc");
+    case EWK: return QString("ewk");
+    case mEWK: return QString("mewk");
+    case uEWK: return QString("uewk");
     default: return QString("???");
     }
 }
@@ -51,9 +51,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case MTC: return QString("MTC");
-    case mMTC: return QString("mMTC");
-    case uMTC: return QString::fromUtf8("μMTC");
+    case EWK: return QString("ewk");
+    case mEWK: return QString("mEWK");
+    case uEWK: return QString::fromUtf8("μEWK");
     default: return QString("???");
     }
 }
@@ -62,9 +62,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case MTC: return QString("MTCs");
-    case mMTC: return QString("Milli-MTCs (1 / 1" THIN_SP_UTF8 "000)");
-    case uMTC: return QString("Micro-MTCs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case EWK: return QString("EWKs");
+    case mEWK: return QString("Milli-EWKs (1 / 1" THIN_SP_UTF8 "000)");
+    case uEWK: return QString("Micro-EWKs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }
@@ -73,9 +73,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case MTC:  return 100000000;
-    case mMTC: return 100000;
-    case uMTC: return 100;
+    case EWK:  return 100000000;
+    case mEWK: return 100000;
+    case uEWK: return 100;
     default:   return 100000000;
     }
 }
@@ -84,9 +84,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case MTC: return 8;
-    case mMTC: return 5;
-    case uMTC: return 2;
+    case EWK: return 8;
+    case mEWK: return 5;
+    case uEWK: return 2;
     default: return 0;
     }
 }
@@ -125,7 +125,7 @@ QString BitcoinUnits::format(int unit, const CAmount& nIn, bool fPlus, Separator
 // TODO: Review all remaining calls to BitcoinUnits::formatWithUnit to
 // TODO: determine whether the output is used in a plain text context
 // TODO: or an HTML context (and replace with
-// TODO: MTCUnits::formatHtmlWithUnit in the latter case). Hopefully
+// TODO: EWKUnits::formatHtmlWithUnit in the latter case). Hopefully
 // TODO: there aren't instances where the result could be used in
 // TODO: either context.
 

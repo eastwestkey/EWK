@@ -30,9 +30,9 @@ SendCoinsEntry::SendCoinsEntry(QWidget *parent) :
     ui->addAsLabel->setPlaceholderText(tr("Enter a label for this address to add it to your address book"));
 #endif
 
-    // normal mtc address field
+    // normal ewk address field
     GUIUtil::setupAddressWidget(ui->payTo, this);
-    // just a label for displaying mtc address(es)
+    // just a label for displaying ewk address(es)
     ui->payTo_is->setFont(GUIUtil::bitcoinAddressFont());
 
     // Connect signals
@@ -99,7 +99,7 @@ void SendCoinsEntry::clear()
     ui->memoTextLabel_s->clear();
     ui->payAmount_s->clear();
 
-    // update the display unit, to not use the default ("MTC")
+    // update the display unit, to not use the default ("EWK")
     updateDisplayUnit();
 }
 

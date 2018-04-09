@@ -85,12 +85,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your MTC addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your MTC addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your EWK addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your EWK addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your MTC addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your EWK addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -206,8 +206,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MTCS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MTCS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR EWKS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR EWKS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -238,8 +238,8 @@
     </message>
     <message>
         <location line="+80"/>
-        <source>MTC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mtcs from being stolen by malware infecting your computer.</source>
-        <translation>MTC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mtcs from being stolen by malware infecting your computer.</translation>
+        <source>EWK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ewks from being stolen by malware infecting your computer.</source>
+        <translation>EWK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ewks from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -284,9 +284,9 @@
     </message>
 </context>
 <context>
-    <name>MTCGUI</name>
+    <name>EWKGUI</name>
     <message>
-        <location filename="../mtcgui.cpp" line="+311"/>
+        <location filename="../bitcoingui.cpp" line="+311"/>
         <source>Sign &amp;message...</source>
         <translation>Sign &amp;message...</translation>
     </message>
@@ -378,7 +378,7 @@
     </message>
     <message>
         <location line="+173"/>
-        <source>MTC Core client</source>
+        <source>EWK Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -393,13 +393,13 @@
     </message>
     <message>
         <location line="-406"/>
-        <source>Send coins to a MTC address</source>
-        <translation>Send coins to a MTC address</translation>
+        <source>Send coins to a EWK address</source>
+        <translation>Send coins to a EWK address</translation>
     </message>
     <message>
         <location line="+48"/>
-        <source>Modify configuration options for MTC</source>
-        <translation>Modify configuration options for MTC</translation>
+        <source>Modify configuration options for EWK</source>
+        <translation>Modify configuration options for EWK</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -428,8 +428,8 @@
     </message>
     <message>
         <location line="+438"/>
-        <source>MTC</source>
-        <translation>MTC</translation>
+        <source>EWK</source>
+        <translation>EWK</translation>
     </message>
     <message>
         <location line="-639"/>
@@ -448,7 +448,7 @@
     </message>
     <message>
         <location line="+32"/>
-        <source>Show information about MTC Core</source>
+        <source>Show information about EWK Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -468,13 +468,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your MTC addresses to prove you own them</source>
-        <translation>Sign messages with your MTC addresses to prove you own them</translation>
+        <source>Sign messages with your EWK addresses to prove you own them</source>
+        <translation>Sign messages with your EWK addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified MTC addresses</source>
-        <translation>Verify messages to ensure they were signed with specified MTC addresses</translation>
+        <source>Verify messages to ensure they were signed with specified EWK addresses</source>
+        <translation>Verify messages to ensure they were signed with specified EWK addresses</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -498,17 +498,17 @@
     </message>
     <message>
         <location line="-298"/>
-        <source>MTC Core</source>
-        <translation type="unfinished">MTC Core</translation>
+        <source>EWK Core</source>
+        <translation type="unfinished">EWK Core</translation>
     </message>
     <message>
         <location line="+155"/>
-        <source>Request payments (generates QR codes and mtc: URIs)</source>
+        <source>Request payments (generates QR codes and ewk: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
-        <source>&amp;About MTC Core</source>
+        <source>&amp;About EWK Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -523,7 +523,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a mtc: URI or payment request</source>
+        <source>Open a ewk: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -533,15 +533,15 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>Show the MTC Core help message to get a list with possible MTC command-line options</source>
+        <source>Show the EWK Core help message to get a list with possible EWK command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+307"/>
-        <source>%n active connection(s) to MTC network</source>
+        <source>%n active connection(s) to EWK network</source>
         <translation>
-            <numerusform>%n active connection to MTC network</numerusform>
-            <numerusform>%n active connections to MTC network</numerusform>
+            <numerusform>%n active connection to EWK network</numerusform>
+            <numerusform>%n active connections to EWK network</numerusform>
         </translation>
     </message>
     <message>
@@ -1012,8 +1012,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid MTC address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid MTC address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid EWK address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid EWK address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1058,8 +1058,8 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+31"/>
-        <source>MTC Core</source>
-        <translation type="unfinished">MTC Core</translation>
+        <source>EWK Core</source>
+        <translation type="unfinished">EWK Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1074,7 +1074,7 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About MTC Core</source>
+        <source>About EWK Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1132,17 +1132,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to MTC Core.</source>
+        <source>Welcome to EWK Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where MTC Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where EWK Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>MTC Core will download and store a copy of the MTC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>EWK Core will download and store a copy of the EWK block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1157,8 +1157,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>MTC Core</source>
-        <translation type="unfinished">MTC Core</translation>
+        <source>EWK Core</source>
+        <translation type="unfinished">EWK Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1229,13 +1229,13 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically start MTC after logging in to the system.</source>
-        <translation>Automatically start MTC after logging in to the system.</translation>
+        <source>Automatically start EWK after logging in to the system.</source>
+        <translation>Automatically start EWK after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start MTC on system login</source>
-        <translation>&amp;Start MTC on system login</translation>
+        <source>&amp;Start EWK on system login</source>
+        <translation>&amp;Start EWK on system login</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1330,8 +1330,8 @@ Address: %4
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the MTC client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the MTC client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the EWK client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the EWK client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1340,7 +1340,7 @@ Address: %4
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the MTC network through a SOCKS5 proxy.</source>
+        <source>Connect to the EWK network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1400,8 +1400,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting MTC.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting MTC.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting EWK.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting EWK.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1475,8 +1475,8 @@ Address: %4
     <message>
         <location line="+53"/>
         <location line="+372"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MTC network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the MTC network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EWK network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the EWK network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-133"/>
@@ -1618,7 +1618,7 @@ Address: %4
     </message>
     <message>
         <location line="-400"/>
-        <source>Cannot start mtc: click-to-pay handler</source>
+        <source>Cannot start ewk: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1628,7 +1628,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>URI cannot be parsed! This can be caused by an invalid MTC address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid EWK address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1708,13 +1708,13 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../mtcunits.cpp" line="+194"/>
+        <location filename="../bitcoinunits.cpp" line="+194"/>
         <source>Amount</source>
         <translation type="unfinished">Amount</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+109"/>
-        <source>Enter a MTC address (e.g. %1)</source>
+        <source>Enter a EWK address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2019,8 +2019,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the MTC debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the MTC debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the EWK debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the EWK debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -2029,8 +2029,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-35"/>
-        <source>Welcome to the MTC RPC console.</source>
-        <translation>Welcome to the MTC RPC console.</translation>
+        <source>Welcome to the EWK RPC console.</source>
+        <translation>Welcome to the EWK RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2125,7 +2125,7 @@ Address: %4
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MTC network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the EWK network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2423,7 +2423,7 @@ Address: %4
     <message>
         <location line="+30"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for mtc transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ewk transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2621,7 +2621,7 @@ Address: %4
     </message>
     <message>
         <location line="+107"/>
-        <source>Warning: Invalid MTC address</source>
+        <source>Warning: Invalid EWK address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2686,7 +2686,7 @@ Address: %4
     </message>
     <message>
         <location line="+33"/>
-        <source>The MTC address to send the payment to</source>
+        <source>The EWK address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2728,7 +2728,7 @@ Address: %4
     </message>
     <message>
         <location line="+33"/>
-        <source>A message that was attached to the mtc: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MTC network.</source>
+        <source>A message that was attached to the ewk: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the EWK network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2753,7 +2753,7 @@ Address: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+47"/>
-        <source>MTC Core is shutting down...</source>
+        <source>EWK Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2781,7 +2781,7 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The MTC address to sign the message with</source>
+        <source>The EWK address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2823,8 +2823,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this MTC address</source>
-        <translation>Sign the message to prove you own this MTC address</translation>
+        <source>Sign the message to prove you own this EWK address</source>
+        <translation>Sign the message to prove you own this EWK address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2854,13 +2854,13 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The MTC address the message was signed with</source>
+        <source>The EWK address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified MTC address</source>
-        <translation>Verify the message to ensure it was signed with the specified MTC address</translation>
+        <source>Verify the message to ensure it was signed with the specified EWK address</source>
+        <translation>Verify the message to ensure it was signed with the specified EWK address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2948,12 +2948,12 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+35"/>
-        <source>MTC Core</source>
-        <translation type="unfinished">MTC Core</translation>
+        <source>EWK Core</source>
+        <translation type="unfinished">EWK Core</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The MTC Core developers</source>
+        <source>The EWK Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3512,7 +3512,7 @@ Address: %4
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
-        <location filename="../mtcgui.cpp" line="+106"/>
+        <location filename="../bitcoingui.cpp" line="+106"/>
         <source>Unit to show amounts in. Click to select another unit.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3577,9 +3577,9 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>mtc-core</name>
+    <name>ewk-core</name>
     <message>
-        <location filename="../mtcstrings.cpp" line="+244"/>
+        <location filename="../bitcoinstrings.cpp" line="+244"/>
         <source>Options:</source>
         <translation>Options:</translation>
     </message>
@@ -3660,7 +3660,7 @@ Address: %4
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to bind to %s on this computer. MTC Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. EWK Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3895,7 +3895,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. MTC Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. EWK Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3980,16 +3980,16 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>To use mtcd, or the -server option to mtc-qt, you must set an rpcpassword in the configuration file:
+        <source>To use ewkd, or the -server option to ewk-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=mtcrpc
+rpcuser=ewkrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MTC Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;EWK Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -4000,7 +4000,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MTC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+6"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MTC Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong EWK Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4025,7 +4025,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MTC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Copyright (C) 2015-%i The MTC Core Developers</source>
+        <source>Copyright (C) 2015-%i The EWK Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4035,7 +4035,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MTC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+12"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of MTC Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of EWK Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4060,7 +4060,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MTC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. MTC Core is shutting down.</source>
+        <source>Initialization sanity check failed. EWK Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4105,7 +4105,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MTC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+7"/>
-        <source>RPC SSL options: (see the MTC Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the EWK Wiki for SSL setup instructions)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4195,7 +4195,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MTC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+4"/>
-        <source>Wallet needed to be rewritten: restart MTC Core to complete</source>
+        <source>Wallet needed to be rewritten: restart EWK Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

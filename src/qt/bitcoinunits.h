@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2013 The MTC developers
+// Copyright (c) 2011-2013 The EWK developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -41,7 +41,7 @@
 #define THIN_SP_UTF8 REAL_THIN_SP_UTF8
 #define THIN_SP_HTML HTML_HACK_SP
 
-/** MTC unit definitions. Encapsulates parsing and formatting
+/** EWK unit definitions. Encapsulates parsing and formatting
    and serves as list model for drop-down selection boxes.
 */
 class BitcoinUnits: public QAbstractListModel
@@ -51,14 +51,14 @@ class BitcoinUnits: public QAbstractListModel
 public:
     explicit BitcoinUnits(QObject *parent);
 
-    /** MTC units.
+    /** EWK units.
       @note Source: https://en.atdollar.it/wiki/Units . Please add only sensible ones
      */
     enum Unit
     {
-        MTC,
-        mMTC,
-        uMTC
+        EWK,
+        mEWK,
+        uEWK
     };
 
     enum SeparatorStyle

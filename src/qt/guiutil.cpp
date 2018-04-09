@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2013 The MTC developers
+// Copyright (c) 2011-2013 The EWK developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -106,7 +106,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a MTC address (e.g. %1)").arg("1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L"));
+    widget->setPlaceholderText(QObject::tr("Enter a EWK address (e.g. %1)").arg("1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -123,8 +123,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no mtc: URI
-    if(!uri.isValid() || uri.scheme() != QString("mtc"))
+    // return if URI is not valid or is no ewk: URI
+    if(!uri.isValid() || uri.scheme() != QString("ewk"))
         return false;
 
     SendCoinsRecipient rv;
@@ -164,7 +164,7 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
         {
             if(!i->second.isEmpty())
             {
-                if(!BitcoinUnits::parse(BitcoinUnits::MTC, i->second, &rv.amount))
+                if(!BitcoinUnits::parse(BitcoinUnits::EWK, i->second, &rv.amount))
                 {
                     return false;
                 }
@@ -184,13 +184,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert mtc:// to mtc:
+    // Convert ewk:// to ewk:
     //
-    //    Cannot handle this later, because mtc:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because ewk:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("mtc://", Qt::CaseInsensitive))
+    if(uri.startsWith("ewk://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 10, "mtc:");
+        uri.replace(0, 10, "ewk:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -198,12 +198,12 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("mtc:%1").arg(info.address);
+    QString ret = QString("ewk:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
     {
-        ret += QString("?amount=%1").arg(BitcoinUnits::format(BitcoinUnits::MTC, info.amount, false, BitcoinUnits::separatorNever));
+        ret += QString("?amount=%1").arg(BitcoinUnits::format(BitcoinUnits::EWK, info.amount, false, BitcoinUnits::separatorNever));
         paramCount++;
     }
 
@@ -567,12 +567,12 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "MTC.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "EWK.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for MTC.lnk
+    // check for EWK.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -649,7 +649,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "mtc.desktop";
+    return GetAutostartDir() / "ewk.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -687,10 +687,10 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         boost::filesystem::ofstream optionFile(GetAutostartFilePath(), std::ios_base::out|std::ios_base::trunc);
         if (!optionFile.good())
             return false;
-        // Write a mtc.desktop file to the autostart directory:
+        // Write a ewk.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=MTC\n";
+        optionFile << "Name=EWK\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
@@ -709,7 +709,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl);
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl)
 {
-    // loop through the list of startup items and try to find the mtc app
+    // loop through the list of startup items and try to find the ewk app
     CFArrayRef listSnapshot = LSSharedFileListCopySnapshot(list, NULL);
     for(int i = 0; i < CFArrayGetCount(listSnapshot); i++) {
         LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
@@ -743,7 +743,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitcoinAppUrl);
 
     if(fAutoStart && !foundItem) {
-        // add mtc app to startup item list
+        // add ewk app to startup item list
         LSSharedFileListInsertItemURL(loginItems, kLSSharedFileListItemBeforeFirst, NULL, NULL, bitcoinAppUrl, NULL, NULL);
     }
     else if(!fAutoStart && foundItem) {

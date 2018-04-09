@@ -66,12 +66,12 @@
         <translation>正在接收地址</translation>
     </message>
     <message>
-        <source>These are your MTC addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>这是您用来付款的爱特币地址。在付款前，请总是核实付款金额和收款地址。</translation>
+        <source>These are your EWK addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>这是您用来付款的EWK币地址。在付款前，请总是核实付款金额和收款地址。</translation>
     </message>
     <message>
-        <source>These are your MTC addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>这些都是您的爱特币地址，可用于收款。建议对每笔交易都使用一个新的地址。</translation>
+        <source>These are your EWK addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>这些都是您的EWK币地址，可用于收款。建议对每笔交易都使用一个新的地址。</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -164,7 +164,7 @@
         <translation>确认加密钱包</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MTCS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR EWKS&lt;/b&gt;!</source>
         <translation>警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的迈图币&lt;/b&gt;！</translation>
     </message>
     <message>
@@ -188,8 +188,8 @@
         <translation>请输入新的钱包密码. &lt;br/&gt;密码须包含&lt;b&gt;10个以上字符&lt;/b&gt;,或&lt;b&gt;8个以上单词&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>MTC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mtcs from being stolen by malware infecting your computer.</source>
-        <translation>爱特币客户端将关闭软件以完成加密过程。请您谨记：钱包加密并不是万能的，电脑中毒等原因仍可能导致您的爱特币意外丢失。</translation>
+        <source>EWK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ewks from being stolen by malware infecting your computer.</source>
+        <translation>EWK币客户端将关闭软件以完成加密过程。请您谨记：钱包加密并不是万能的，电脑中毒等原因仍可能导致您的EWK币意外丢失。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -221,7 +221,7 @@
     </message>
 </context>
 <context>
-    <name>MTCGUI</name>
+    <name>EWKGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>消息签名(&amp;M)...</translation>
@@ -295,8 +295,8 @@
         <translation>打开 &amp;URI...</translation>
     </message>
     <message>
-        <source>MTC Core client</source>
-        <translation>爱特币核心钱包</translation>
+        <source>EWK Core client</source>
+        <translation>EWK币核心钱包</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,11 +307,11 @@
         <translation>正在为数据块建立索引...</translation>
     </message>
     <message>
-        <source>Send coins to a MTC address</source>
-        <translation>向一个爱特币地址发送爱特币</translation>
+        <source>Send coins to a EWK address</source>
+        <translation>向一个EWK币地址发送EWK币</translation>
     </message>
     <message>
-        <source>Modify configuration options for MTC</source>
+        <source>Modify configuration options for EWK</source>
         <translation>设置选项</translation>
     </message>
     <message>
@@ -335,8 +335,8 @@
         <translation>验证消息(&amp;V)...</translation>
     </message>
     <message>
-        <source>MTC</source>
-        <translation>爱特币</translation>
+        <source>EWK</source>
+        <translation>EWK币</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,8 +351,8 @@
         <translation>接收(&amp;R)</translation>
     </message>
     <message>
-        <source>Show information about MTC Core</source>
-        <translation>显示有关爱特币核心钱包信息</translation>
+        <source>Show information about EWK Core</source>
+        <translation>显示有关EWK币核心钱包信息</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,12 +367,12 @@
         <translation>对钱包中的私钥加密</translation>
     </message>
     <message>
-        <source>Sign messages with your MTC addresses to prove you own them</source>
-        <translation>用爱特币地址关联的私钥为消息签名，以证明您拥有这个爱特币地址</translation>
+        <source>Sign messages with your EWK addresses to prove you own them</source>
+        <translation>用EWK币地址关联的私钥为消息签名，以证明您拥有这个EWK币地址</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MTC addresses</source>
-        <translation>校验消息，确保该消息是由指定的爱特币地址所有者签名的</translation>
+        <source>Verify messages to ensure they were signed with specified EWK addresses</source>
+        <translation>校验消息，确保该消息是由指定的EWK币地址所有者签名的</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>分页工具栏</translation>
     </message>
     <message>
-        <source>MTC Core</source>
-        <translation>爱特币核心</translation>
+        <source>EWK Core</source>
+        <translation>EWK币核心</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and mtc: URIs)</source>
-        <translation>请求支付（生成二维码和 mtc: URI）</translation>
+        <source>Request payments (generates QR codes and ewk: URIs)</source>
+        <translation>请求支付（生成二维码和 ewk: URI）</translation>
     </message>
     <message>
-        <source>&amp;About MTC Core</source>
-        <translation>关于爱特币核心(&amp;A)</translation>
+        <source>&amp;About EWK Core</source>
+        <translation>关于EWK币核心(&amp;A)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>显示用过的接收地址和标签的列表</translation>
     </message>
     <message>
-        <source>Open a mtc: URI or payment request</source>
-        <translation>打开一个爱特币：URI 或支付请求</translation>
+        <source>Open a ewk: URI or payment request</source>
+        <translation>打开一个EWK币：URI 或支付请求</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>命令行选项(&amp;C)</translation>
     </message>
     <message>
-        <source>Show the MTC Core help message to get a list with possible MTC command-line options</source>
-        <translation>显示爱特币核心 程序帮助信息，获取可用的命令行选项 </translation>
+        <source>Show the EWK Core help message to get a list with possible EWK command-line options</source>
+        <translation>显示EWK币核心 程序帮助信息，获取可用的命令行选项 </translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to MTC network</source>
-        <translation><numerusform>%n 个到爱特币网络的活动连接</numerusform></translation>
+        <source>%n active connection(s) to EWK network</source>
+        <translation><numerusform>%n 个到EWK币网络的活动连接</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -730,7 +730,7 @@ Address: %4
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation>如果收款地址收到小于%1的爱特币，标签将变成红色。</translation>
+        <translation>如果收款地址收到小于%1的EWK币，标签将变成红色。</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -788,8 +788,8 @@ Address: %4
         <translation>输入的地址“%1”已经存在于地址簿中。</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid MTC address.</source>
-        <translation>您输入的“%1”不是有效的爱特币地址。</translation>
+        <source>The entered address "%1" is not a valid EWK address.</source>
+        <translation>您输入的“%1”不是有效的EWK币地址。</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -826,8 +826,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>MTC Core</source>
-        <translation>爱特币核心</translation>
+        <source>EWK Core</source>
+        <translation>EWK币核心</translation>
     </message>
     <message>
         <source>version</source>
@@ -838,8 +838,8 @@ Address: %4
         <translation>(%1 位)</translation>
     </message>
     <message>
-        <source>About MTC Core</source>
-        <translation>关于爱特币核心</translation>
+        <source>About EWK Core</source>
+        <translation>关于EWK币核心</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -886,16 +886,16 @@ Address: %4
         <translation>欢迎</translation>
     </message>
     <message>
-        <source>Welcome to MTC Core.</source>
-        <translation>欢迎使用 爱特币核心 程序。</translation>
+        <source>Welcome to EWK Core.</source>
+        <translation>欢迎使用 EWK币核心 程序。</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where MTC Core will store its data.</source>
-        <translation>由于这是第一次运行 爱特币核心 程序，您可以选择数据存储目录。</translation>
+        <source>As this is the first time the program is launched, you can choose where EWK Core will store its data.</source>
+        <translation>由于这是第一次运行 EWK币核心 程序，您可以选择数据存储目录。</translation>
     </message>
     <message>
-        <source>MTC Core will download and store a copy of the MTC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>爱特币核心 程序会下载储存一份数据块链(blockchain)。至少需要 %1 GB的存储空间，随着时间推移会需要更多的存储空间。钱包文件也储存在该目录。</translation>
+        <source>EWK Core will download and store a copy of the EWK block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>EWK币核心 程序会下载储存一份数据块链(blockchain)。至少需要 %1 GB的存储空间，随着时间推移会需要更多的存储空间。钱包文件也储存在该目录。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -906,8 +906,8 @@ Address: %4
         <translation>使用自定义的数据目录：</translation>
     </message>
     <message>
-        <source>MTC Core</source>
-        <translation>爱特币核心</translation>
+        <source>EWK Core</source>
+        <translation>EWK币核心</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -960,11 +960,11 @@ Address: %4
         <translation>主要(&amp;M)</translation>
     </message>
     <message>
-        <source>Automatically start MTC after logging in to the system.</source>
-        <translation>登录系统后自动开启爱特币客户端</translation>
+        <source>Automatically start EWK after logging in to the system.</source>
+        <translation>登录系统后自动开启EWK币客户端</translation>
     </message>
     <message>
-        <source>&amp;Start MTC on system login</source>
+        <source>&amp;Start EWK on system login</source>
         <translation>系统启动时运行(&amp;S)</translation>
     </message>
     <message>
@@ -1040,16 +1040,16 @@ Address: %4
         <translation>使用未经确认的零钱(&amp;S)</translation>
     </message>
     <message>
-        <source>Automatically open the MTC client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动在路由器中打开爱特币端口。只有当您的路由器开启了 UPnP 选项时此功能才有效。</translation>
+        <source>Automatically open the EWK client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自动在路由器中打开EWK币端口。只有当您的路由器开启了 UPnP 选项时此功能才有效。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>使用 &amp;UPnP 映射端口</translation>
     </message>
     <message>
-        <source>Connect to the MTC network through a SOCKS5 proxy.</source>
-        <translation>通过 SOCKS5 代理连接爱特币网络。</translation>
+        <source>Connect to the EWK network through a SOCKS5 proxy.</source>
+        <translation>通过 SOCKS5 代理连接EWK币网络。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1096,16 +1096,16 @@ Address: %4
         <translation>用户界面语言(&amp;L)：</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MTC.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting EWK.</source>
         <translation>在这里设置用户界面的语言。设置将在客户端重启后生效。</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>爱特币金额单位(&amp;U)：</translation>
+        <translation>EWK币金额单位(&amp;U)：</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择爱特币单位。</translation>
+        <translation>选择EWK币单位。</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1155,8 +1155,8 @@ Address: %4
         <translation>表单</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MTC network after a connection is established, but this process has not completed yet.</source>
-        <translation>现在显示的消息可能是过期的. 在连接上爱特币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EWK network after a connection is established, but this process has not completed yet.</source>
+        <translation>现在显示的消息可能是过期的. 在连接上EWK币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1262,16 +1262,16 @@ Address: %4
         <translation>支付请求出错</translation>
     </message>
     <message>
-        <source>Cannot start mtc: click-to-pay handler</source>
-        <translation>暂时无法启动爱特币：点击支付功能</translation>
+        <source>Cannot start ewk: click-to-pay handler</source>
+        <translation>暂时无法启动EWK币：点击支付功能</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>付款请求URI链接非法: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid MTC address or malformed URI parameters.</source>
-        <translation>URI无法解析！原因可能是爱特币地址不正确，或者URI参数错误。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid EWK address or malformed URI parameters.</source>
+        <translation>URI无法解析！原因可能是EWK币地址不正确，或者URI参数错误。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1340,8 +1340,8 @@ Address: %4
         <translation>金额</translation>
     </message>
     <message>
-        <source>Enter a MTC address (e.g. %1)</source>
-        <translation>请输入一个爱特币地址 (例如 %1)</translation>
+        <source>Enter a EWK address (e.g. %1)</source>
+        <translation>请输入一个EWK币地址 (例如 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1566,7 +1566,7 @@ Address: %4
         <translation>调试日志文件</translation>
     </message>
     <message>
-        <source>Open the MTC debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the EWK debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>打开当前目录中的调试日志文件。日志文件大的话可能要等上几秒钟。</translation>
     </message>
     <message>
@@ -1574,7 +1574,7 @@ Address: %4
         <translation>清空控制台</translation>
     </message>
     <message>
-        <source>Welcome to the MTC RPC console.</source>
+        <source>Welcome to the EWK RPC console.</source>
         <translation>欢迎来到 RPC 控制台。</translation>
     </message>
     <message>
@@ -1649,8 +1649,8 @@ Address: %4
         <translation>重用现有的接收地址（不推荐）</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MTC network.</source>
-        <translation>可在付款请求上备注一条信息，在打开付款请求时可以看到。注意：该消息不是通过爱特币网络传送。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the EWK network.</source>
+        <translation>可在付款请求上备注一条信息，在打开付款请求时可以看到。注意：该消息不是通过EWK币网络传送。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1799,7 +1799,7 @@ Address: %4
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>发送爱特币</translation>
+        <translation>发送EWK币</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1886,7 +1886,7 @@ Address: %4
         <translation>最小额 </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for mtc transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ewk transactions than the network can process.</source>
         <translation>交易量小时只支付最小交易费是可以的。但是请注意，当交易量大时您的交易可能永远无法确认。</translation>
     </message>
     <message>
@@ -2027,7 +2027,7 @@ Address: %4
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的爱特币已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了爱特币，但是这个钱包文件中没有记录。</translation>
+        <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的EWK币已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了EWK币，但是这个钱包文件中没有记录。</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an insanely high fee.</source>
@@ -2042,8 +2042,8 @@ Address: %4
         <translation>预计%1 个数据块后确认。</translation>
     </message>
     <message>
-        <source>Warning: Invalid MTC address</source>
-        <translation>警告：无效的爱特币地址</translation>
+        <source>Warning: Invalid EWK address</source>
+        <translation>警告：无效的EWK币地址</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2093,7 +2093,7 @@ Address: %4
         <translation>这是笔正常的支付。</translation>
     </message>
     <message>
-        <source>The MTC address to send the payment to</source>
+        <source>The EWK address to send the payment to</source>
         <translation>付款目的地址</translation>
     </message>
     <message>
@@ -2125,8 +2125,8 @@ Address: %4
         <translation>请为此地址输入一个标签以将它加入用过的地址列表</translation>
     </message>
     <message>
-        <source>A message that was attached to the mtc: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MTC network.</source>
-        <translation>mtc:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过爱特币网络传输。</translation>
+        <source>A message that was attached to the ewk: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the EWK network.</source>
+        <translation>ewk:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过EWK币网络传输。</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2144,8 +2144,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>MTC Core is shutting down...</source>
-        <translation>爱特币核心正在关机...</translation>
+        <source>EWK Core is shutting down...</source>
+        <translation>EWK币核心正在关机...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2167,7 +2167,7 @@ Address: %4
         <translation>您可以用你的地址对消息进行签名，以证明您是该地址的所有人。注意不要对模棱两可的消息签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
-        <source>The MTC address to sign the message with</source>
+        <source>The EWK address to sign the message with</source>
         <translation>用来对消息签名的地址 </translation>
     </message>
     <message>
@@ -2199,7 +2199,7 @@ Address: %4
         <translation>复制当前签名至剪切板</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MTC address</source>
+        <source>Sign the message to prove you own this EWK address</source>
         <translation>签名消息，证明这个地址属于您。</translation>
     </message>
     <message>
@@ -2223,12 +2223,12 @@ Address: %4
         <translation>在下面输入签名地址，消息（请确保换行符、空格符、制表符等等一个不漏）和签名以验证消息。请确保签名信息准确，提防中间人攻击。</translation>
     </message>
     <message>
-        <source>The MTC address the message was signed with</source>
+        <source>The EWK address the message was signed with</source>
         <translation>消息使用的签名地址</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MTC address</source>
-        <translation>验证消息，确保消息是由指定的爱特币地址签名过的。</translation>
+        <source>Verify the message to ensure it was signed with the specified EWK address</source>
+        <translation>验证消息，确保消息是由指定的EWK币地址签名过的。</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2294,12 +2294,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MTC Core</source>
-        <translation>爱特币核心</translation>
+        <source>EWK Core</source>
+        <translation>EWK币核心</translation>
     </message>
     <message>
-        <source>The MTC Core developers</source>
-        <translation>MTC Core 的开发者</translation>
+        <source>The EWK Core developers</source>
+        <translation>EWK Core 的开发者</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2425,7 +2425,7 @@ Address: %4
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>生成的爱特币在可以使用前必须有 %1 个成熟的区块。当您生成了此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，如果另一个节点比你早几秒钟成功生成一个区块。</translation>
+        <translation>生成的EWK币在可以使用前必须有 %1 个成熟的区块。当您生成了此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，如果另一个节点比你早几秒钟成功生成一个区块。</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2743,7 +2743,7 @@ Address: %4
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>发送爱特币</translation>
+        <translation>发送EWK币</translation>
     </message>
 </context>
 <context>
@@ -2782,7 +2782,7 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>mtc-core</name>
+    <name>ewk-core</name>
     <message>
         <source>Options:</source>
         <translation>选项：
@@ -2854,8 +2854,8 @@ Address: %4
         <translation>这是测试用的预发布版本 - 请谨慎使用 - 不要用来挖矿，或者在正式商用环境下使用</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. MTC Core is probably already running.</source>
-        <translation>无法 %s的绑定到电脑上，爱特币核心钱包可能已经在运行。</translation>
+        <source>Unable to bind to %s on this computer. EWK Core is probably already running.</source>
+        <translation>无法 %s的绑定到电脑上，EWK币核心钱包可能已经在运行。</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3042,8 +3042,8 @@ Address: %4
         <translation>绑定到指定地址监听 JSON-RPC连接。 IPv6使用[主机]:端口 格式。该选项可多次指定 (默认: 绑定到所有接口) </translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. MTC Core is probably already running.</source>
-        <translation>无法获取数据目录的 %s. 爱特币核心钱包可能已经在运行.</translation>
+        <source>Cannot obtain a lock on data directory %s. EWK Core is probably already running.</source>
+        <translation>无法获取数据目录的 %s. EWK币核心钱包可能已经在运行.</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
@@ -3103,34 +3103,34 @@ Address: %4
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>设置爱特币生成线程数 ( -1=所有核, 默认: %d) </translation>
+        <translation>设置EWK币生成线程数 ( -1=所有核, 默认: %d) </translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use mtcd, or the -server option to mtc-qt, you must set an rpcpassword in the configuration file:
+        <source>To use ewkd, or the -server option to ewk-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=mtcrpc
+rpcuser=ewkrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "MTC Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "EWK Alert" admin@foo.com
 </source>
-        <translation>要使用 mtcd 或者 mtc-qt 中的 -server 选项，您必须在配置文件中设置一个密码：
+        <translation>要使用 ewkd 或者 ewk-qt 中的 -server 选项，您必须在配置文件中设置一个密码：
 %s
 建议您使用下列随机密码：
-rpcuser=mtcrpc
+rpcuser=ewkrpc
 rpcpassword=%s
 （您不需要记住这个密码）
 用户名和密码不能相同。
 如果该文件不存在，创建一个文件并设置权限为仅创建者可读。
 此外，还建议您设置 alertnotify 以便您能注意到问题：
-例如 alertnotify=echo %%s | mail -s "MTC Alert" admin@foo.com
+例如 alertnotify=echo %%s | mail -s "EWK Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3138,8 +3138,8 @@ rpcpassword=%s
         <translation>警告：-maxtxfee 设置的太高了！每进行一笔交易时您都要花费这么多费用。</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong MTC Core will not work properly.</source>
-        <translation>警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致爱特币客户端运行异常。</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong EWK Core will not work properly.</source>
+        <translation>警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致EWK币客户端运行异常。</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3158,16 +3158,16 @@ rpcpassword=%s
         <translation>通过 SOCKS5 代理连接</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The MTC Core Developers</source>
-        <translation>版权所有 (C) 2015-%i MTC Core 开发者</translation>
+        <source>Copyright (C) 2015-%i The EWK Core Developers</source>
+        <translation>版权所有 (C) 2015-%i EWK Core 开发者</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>无法解析 -rpcbind 的值 %s 为网络地址</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of MTC Core</source>
-        <translation>加载wallet.dat错误：需要新版的爱特币核心钱包</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of EWK Core</source>
+        <translation>加载wallet.dat错误：需要新版的EWK币核心钱包</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3186,8 +3186,8 @@ rpcpassword=%s
         <translation>信息</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. MTC Core is shutting down.</source>
-        <translation>初始化完整性检查失败。MTC Core 即将关闭。</translation>
+        <source>Initialization sanity check failed. EWK Core is shutting down.</source>
+        <translation>初始化完整性检查失败。EWK Core 即将关闭。</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3218,8 +3218,8 @@ rpcpassword=%s
         <translation>节点中继选项:</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the MTC Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL选项：(见有关爱特币设置用于SSL说明的维基百科)</translation>
+        <source>RPC SSL options: (see the EWK Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL选项：(见有关EWK币设置用于SSL说明的维基百科)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3290,7 +3290,7 @@ rpcpassword=%s
         <translation>JSON-RPC 连接用户名</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart MTC Core to complete</source>
+        <source>Wallet needed to be rewritten: restart EWK Core to complete</source>
         <translation>钱包需要被改写：重新启动核心钱包来完成</translation>
     </message>
     <message>
@@ -3413,7 +3413,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>生成爱特币 (默认: %u)</translation>
+        <translation>生成EWK币 (默认: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>

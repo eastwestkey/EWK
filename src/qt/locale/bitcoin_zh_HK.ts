@@ -9,7 +9,7 @@
     <name>AskPassphraseDialog</name>
     </context>
 <context>
-    <name>MTCGUI</name>
+    <name>EWKGUI</name>
     </context>
 <context>
     <name>ClientModel</name>
@@ -105,6 +105,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>mtc-core</name>
+    <name>ewk-core</name>
     </context>
 </TS>

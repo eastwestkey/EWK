@@ -66,12 +66,12 @@
         <translation>收款位址</translation>
     </message>
     <message>
-        <source>These are your MTC addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這些是你要付款過去的位元幣位址。在付錢之前，務必要檢查金額和收款位址是否正確。</translation>
+        <source>These are your EWK addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這些是你要付款過去的EWK幣位址。在付錢之前，務必要檢查金額和收款位址是否正確。</translation>
     </message>
     <message>
-        <source>These are your MTC addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這些是你用來收款的位元幣位址。建議在每次交易時，都使用一個新的收款位址。</translation>
+        <source>These are your EWK addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這些是你用來收款的EWK幣位址。建議在每次交易時，都使用一個新的收款位址。</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -164,8 +164,8 @@
         <translation>確認錢包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MTCS&lt;/b&gt;!</source>
-        <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的位元幣了&lt;/b&gt;！</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR EWKS&lt;/b&gt;!</source>
+        <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的EWK幣了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>輸入錢包的新密碼。&lt;br/&gt;密碼請用&lt;b&gt;10 個以上的字元&lt;/b&gt;，或是&lt;b&gt;8 個以上的字詞&lt;/b&gt;。</translation>
     </message>
     <message>
-        <source>MTC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mtcs from being stolen by malware infecting your computer.</source>
-        <translation>位元幣軟體現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取位元幣。</translation>
+        <source>EWK will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ewks from being stolen by malware infecting your computer.</source>
+        <translation>EWK幣軟體現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取EWK幣。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -221,7 +221,7 @@
     </message>
 </context>
 <context>
-    <name>MTCGUI</name>
+    <name>EWKGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>簽署訊息...</translation>
@@ -295,8 +295,8 @@
         <translation>開啓 URI...</translation>
     </message>
     <message>
-        <source>MTC Core client</source>
-        <translation>位元幣核心客戶端軟體</translation>
+        <source>EWK Core client</source>
+        <translation>EWK幣核心客戶端軟體</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,12 +307,12 @@
         <translation>正在為磁碟裡的區塊重建索引...</translation>
     </message>
     <message>
-        <source>Send coins to a MTC address</source>
-        <translation>付錢給一個位元幣位址</translation>
+        <source>Send coins to a EWK address</source>
+        <translation>付錢給一個EWK幣位址</translation>
     </message>
     <message>
-        <source>Modify configuration options for MTC</source>
-        <translation>修改位元幣軟體的設定選項</translation>
+        <source>Modify configuration options for EWK</source>
+        <translation>修改EWK幣軟體的設定選項</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,8 +335,8 @@
         <translation>驗證訊息...</translation>
     </message>
     <message>
-        <source>MTC</source>
-        <translation>位元幣</translation>
+        <source>EWK</source>
+        <translation>EWK幣</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,8 +351,8 @@
         <translation>已接收</translation>
     </message>
     <message>
-        <source>Show information about MTC Core</source>
-        <translation>顯示位元幣核心的相關資訊</translation>
+        <source>Show information about EWK Core</source>
+        <translation>顯示EWK幣核心的相關資訊</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,12 +367,12 @@
         <translation>把錢包中的密鑰加密</translation>
     </message>
     <message>
-        <source>Sign messages with your MTC addresses to prove you own them</source>
-        <translation>用位元幣位址簽署訊息來證明位址是你的</translation>
+        <source>Sign messages with your EWK addresses to prove you own them</source>
+        <translation>用EWK幣位址簽署訊息來證明位址是你的</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MTC addresses</source>
-        <translation>驗證訊息是用來確定訊息是用指定的位元幣位址簽署的</translation>
+        <source>Verify messages to ensure they were signed with specified EWK addresses</source>
+        <translation>驗證訊息是用來確定訊息是用指定的EWK幣位址簽署的</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>分頁工具列</translation>
     </message>
     <message>
-        <source>MTC Core</source>
-        <translation>位元幣核心</translation>
+        <source>EWK Core</source>
+        <translation>EWK幣核心</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and mtc: URIs)</source>
-        <translation>要求付款(產生 QR Code 和位元幣付款協議的 URI)</translation>
+        <source>Request payments (generates QR codes and ewk: URIs)</source>
+        <translation>要求付款(產生 QR Code 和EWK幣付款協議的 URI)</translation>
     </message>
     <message>
-        <source>&amp;About MTC Core</source>
-        <translation>關於位元幣核心</translation>
+        <source>&amp;About EWK Core</source>
+        <translation>關於EWK幣核心</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>顯示已使用過的收款位址和標記的清單</translation>
     </message>
     <message>
-        <source>Open a mtc: URI or payment request</source>
-        <translation>開啓 mtc 協議的 URI 或付款要求</translation>
+        <source>Open a ewk: URI or payment request</source>
+        <translation>開啓 ewk 協議的 URI 或付款要求</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>命令列選項</translation>
     </message>
     <message>
-        <source>Show the MTC Core help message to get a list with possible MTC command-line options</source>
-        <translation>顯示位元幣核心的說明訊息，來取得可用命令列選項的列表</translation>
+        <source>Show the EWK Core help message to get a list with possible EWK command-line options</source>
+        <translation>顯示EWK幣核心的說明訊息，來取得可用命令列選項的列表</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to MTC network</source>
-        <translation><numerusform>%n 個運作中的位元幣網路連線</numerusform></translation>
+        <source>%n active connection(s) to EWK network</source>
+        <translation><numerusform>%n 個運作中的EWK幣網路連線</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -534,7 +534,7 @@ Address: %4
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>位元組數:</translation>
+        <translation>EWK組數:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -638,7 +638,7 @@ Address: %4
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>複製位元組數</translation>
+        <translation>複製EWK組數</translation>
     </message>
     <message>
         <source>Copy priority</source>
@@ -710,15 +710,15 @@ Address: %4
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>當交易大小大於 1000 位元組時，文字會變紅色。</translation>
+        <translation>當交易大小大於 1000 EWK組時，文字會變紅色。</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>表示每一千位元組(kB)需要至少 %1 的手續費。</translation>
+        <translation>表示每一千EWK組(kB)需要至少 %1 的手續費。</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
-        <translation>每組輸入可能會誤差多或少 1 個位元組。</translation>
+        <translation>每組輸入可能會誤差多或少 1 個EWK組。</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
@@ -788,8 +788,8 @@ Address: %4
         <translation>輸入的位址 %1 在位址簿中已經有了。</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid MTC address.</source>
-        <translation>輸入的位址 %1 並不是有效的位元幣位址。</translation>
+        <source>The entered address "%1" is not a valid EWK address.</source>
+        <translation>輸入的位址 %1 並不是有效的EWK幣位址。</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -826,8 +826,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>MTC Core</source>
-        <translation>位元幣核心</translation>
+        <source>EWK Core</source>
+        <translation>EWK幣核心</translation>
     </message>
     <message>
         <source>version</source>
@@ -835,11 +835,11 @@ Address: %4
     </message>
     <message>
         <source>(%1-bit)</source>
-        <translation>(%1 位元)</translation>
+        <translation>(%1 EWK)</translation>
     </message>
     <message>
-        <source>About MTC Core</source>
-        <translation>關於位元幣核心</translation>
+        <source>About EWK Core</source>
+        <translation>關於EWK幣核心</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -885,16 +885,16 @@ Address: %4
         <translation>歡迎</translation>
     </message>
     <message>
-        <source>Welcome to MTC Core.</source>
-        <translation>歡迎使用位元幣核心</translation>
+        <source>Welcome to EWK Core.</source>
+        <translation>歡迎使用EWK幣核心</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where MTC Core will store its data.</source>
-        <translation>因為這是程式第一次啓動，你可以選擇位元幣核心儲存資料的地方。</translation>
+        <source>As this is the first time the program is launched, you can choose where EWK Core will store its data.</source>
+        <translation>因為這是程式第一次啓動，你可以選擇EWK幣核心儲存資料的地方。</translation>
     </message>
     <message>
-        <source>MTC Core will download and store a copy of the MTC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>位元幣核心會下載並儲存一份位元幣區塊鏈的拷貝。至少有 %1GB 的資料會儲存到這個目錄中，並且還會持續增長。另外錢包資料也會儲存在這個目錄。</translation>
+        <source>EWK Core will download and store a copy of the EWK block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>EWK幣核心會下載並儲存一份EWK幣區塊鏈的拷貝。至少有 %1GB 的資料會儲存到這個目錄中，並且還會持續增長。另外錢包資料也會儲存在這個目錄。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -905,8 +905,8 @@ Address: %4
         <translation>使用自定的資料目錄:</translation>
     </message>
     <message>
-        <source>MTC Core</source>
-        <translation>位元幣核心</translation>
+        <source>EWK Core</source>
+        <translation>EWK幣核心</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -959,12 +959,12 @@ Address: %4
         <translation>主要</translation>
     </message>
     <message>
-        <source>Automatically start MTC after logging in to the system.</source>
-        <translation>在登入系統後自動啓動位元幣軟體。</translation>
+        <source>Automatically start EWK after logging in to the system.</source>
+        <translation>在登入系統後自動啓動EWK幣軟體。</translation>
     </message>
     <message>
-        <source>&amp;Start MTC on system login</source>
-        <translation>系統登入時啟動位元幣</translation>
+        <source>&amp;Start EWK on system login</source>
+        <translation>系統登入時啟動EWK幣</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -972,7 +972,7 @@ Address: %4
     </message>
     <message>
         <source>MB</source>
-        <translation>MB (百萬位元組)</translation>
+        <translation>MB (百萬EWK組)</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
@@ -1039,16 +1039,16 @@ Address: %4
         <translation>可以花還沒確認的零錢</translation>
     </message>
     <message>
-        <source>Automatically open the MTC client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動在路由器上開放位元幣的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
+        <source>Automatically open the EWK client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動在路由器上開放EWK幣的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>用 &amp;UPnP 設定通訊埠對應</translation>
     </message>
     <message>
-        <source>Connect to the MTC network through a SOCKS5 proxy.</source>
-        <translation>透過 SOCKS5 代理伺服器來連線到位元幣網路。</translation>
+        <source>Connect to the EWK network through a SOCKS5 proxy.</source>
+        <translation>透過 SOCKS5 代理伺服器來連線到EWK幣網路。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1095,8 +1095,8 @@ Address: %4
         <translation>使用界面語言:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MTC.</source>
-        <translation>可以在這裡設定使用者介面的語言。這個設定在重啓位元幣軟體後才會生效。</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting EWK.</source>
+        <translation>可以在這裡設定使用者介面的語言。這個設定在重啓EWK幣軟體後才會生效。</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1154,8 +1154,8 @@ Address: %4
         <translation>表單</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MTC network after a connection is established, but this process has not completed yet.</source>
-        <translation>顯示的資訊可能是過期的。跟位元幣網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EWK network after a connection is established, but this process has not completed yet.</source>
+        <translation>顯示的資訊可能是過期的。跟EWK幣網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1261,16 +1261,16 @@ Address: %4
         <translation>要求付款時發生錯誤</translation>
     </message>
     <message>
-        <source>Cannot start mtc: click-to-pay handler</source>
-        <translation>沒辦法啟動 mtc 協議的按就付處理器</translation>
+        <source>Cannot start ewk: click-to-pay handler</source>
+        <translation>沒辦法啟動 ewk 協議的按就付處理器</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>取得付款要求的 URL 無效: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid MTC address or malformed URI parameters.</source>
-        <translation>沒辦法解析 URI 位址！可能是因為位元幣位址無效，或是 URI 參數格式錯誤。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid EWK address or malformed URI parameters.</source>
+        <translation>沒辦法解析 URI 位址！可能是因為EWK幣位址無效，或是 URI 參數格式錯誤。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1290,7 +1290,7 @@ Address: %4
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>付款要求 %1 過大 (%2 位元組, 上限 %3 位元組).</translation>
+        <translation>付款要求 %1 過大 (%2 EWK組, 上限 %3 EWK組).</translation>
     </message>
     <message>
         <source>Payment request DoS protection</source>
@@ -1339,8 +1339,8 @@ Address: %4
         <translation>金額</translation>
     </message>
     <message>
-        <source>Enter a MTC address (e.g. %1)</source>
-        <translation>輸入位元幣位址 (比如說 %1)</translation>
+        <source>Enter a EWK address (e.g. %1)</source>
+        <translation>輸入EWK幣位址 (比如說 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1514,11 +1514,11 @@ Address: %4
     </message>
     <message>
         <source>Bytes Sent</source>
-        <translation>送出位元組</translation>
+        <translation>送出EWK組</translation>
     </message>
     <message>
         <source>Bytes Received</source>
-        <translation>收到位元組</translation>
+        <translation>收到EWK組</translation>
     </message>
     <message>
         <source>Ping Time</source>
@@ -1565,16 +1565,16 @@ Address: %4
         <translation>除錯紀錄檔</translation>
     </message>
     <message>
-        <source>Open the MTC debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>從目前的資料目錄下開啓位元幣軟體的除錯紀錄檔。當紀錄檔很大時，可能會花好幾秒的時間。</translation>
+        <source>Open the EWK debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>從目前的資料目錄下開啓EWK幣軟體的除錯紀錄檔。當紀錄檔很大時，可能會花好幾秒的時間。</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>清主控台</translation>
     </message>
     <message>
-        <source>Welcome to the MTC RPC console.</source>
-        <translation>歡迎使用位元幣 RPC 主控台。</translation>
+        <source>Welcome to the EWK RPC console.</source>
+        <translation>歡迎使用EWK幣 RPC 主控台。</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1586,19 +1586,19 @@ Address: %4
     </message>
     <message>
         <source>%1 B</source>
-        <translation>%1 B (位元組)</translation>
+        <translation>%1 B (EWK組)</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 KB (千位元組)</translation>
+        <translation>%1 KB (千EWK組)</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation>%1 MB (百萬位元組)</translation>
+        <translation>%1 MB (百萬EWK組)</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 GB (十億位元組)</translation>
+        <translation>%1 GB (十億EWK組)</translation>
     </message>
     <message>
         <source>via %1</source>
@@ -1648,8 +1648,8 @@ Address: %4
         <translation>重複使用現有的收款位址(不建議)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MTC network.</source>
-        <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到位元幣網路上。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the EWK network.</source>
+        <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到EWK幣網路上。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1822,7 +1822,7 @@ Address: %4
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>位元組數:</translation>
+        <translation>EWK組數:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -1870,22 +1870,22 @@ Address: %4
     </message>
     <message>
         <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>如果自訂手續費設定為 1000 satoshi, 而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 satoshi 的手續費，換做選「總共至少」就會付 1000 satoshi. 但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
+        <translation>如果自訂手續費設定為 1000 satoshi, 而交易資料大小只有 250 個EWK組的話，那麽選擇「每千EWK組」就只會付 250 satoshi 的手續費，換做選「總共至少」就會付 1000 satoshi. 但是如果交易資料大小超過一千個EWK組，那麽兩者都是每千EWK組的費用。</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>每千位元組</translation>
+        <translation>每千EWK組</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>如果自訂手續費設定為 1000 satoshi, 而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 satoshi 的手續費，換做選「總共至少」就會付 1000 satoshi. 但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
+        <translation>如果自訂手續費設定為 1000 satoshi, 而交易資料大小只有 250 個EWK組的話，那麽選擇「每千EWK組」就只會付 250 satoshi 的手續費，換做選「總共至少」就會付 1000 satoshi. 但是如果交易資料大小超過一千個EWK組，那麽兩者都是每千EWK組的費用。</translation>
     </message>
     <message>
         <source>total at least</source>
         <translation>總共最少</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for mtc transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ewk transactions than the network can process.</source>
         <translation>當交易量少於區塊可容納的空間時，只付最低手續費不會有什麽問題。但是當交易量的需求成長到超過整體網路可以處理的量時，可能會造成一筆一直不會被確認的交易。</translation>
     </message>
     <message>
@@ -1982,7 +1982,7 @@ Address: %4
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>複製位元組數</translation>
+        <translation>複製EWK組數</translation>
     </message>
     <message>
         <source>Copy priority</source>
@@ -2041,8 +2041,8 @@ Address: %4
         <translation>預計可在 %1 個區塊內開始確認。</translation>
     </message>
     <message>
-        <source>Warning: Invalid MTC address</source>
-        <translation>警告: 位元幣位址無效</translation>
+        <source>Warning: Invalid EWK address</source>
+        <translation>警告: EWK幣位址無效</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2092,8 +2092,8 @@ Address: %4
         <translation>這是一筆正常的付款。</translation>
     </message>
     <message>
-        <source>The MTC address to send the payment to</source>
-        <translation>接收付款的位元幣位址</translation>
+        <source>The EWK address to send the payment to</source>
+        <translation>接收付款的EWK幣位址</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2124,8 +2124,8 @@ Address: %4
         <translation>請輸入這個位址的標記，來把它加進去已使用過位址的清單。</translation>
     </message>
     <message>
-        <source>A message that was attached to the mtc: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MTC network.</source>
-        <translation>附加在位元幣付款協議 URI 中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到位元幣網路上。</translation>
+        <source>A message that was attached to the ewk: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the EWK network.</source>
+        <translation>附加在EWK幣付款協議 URI 中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到EWK幣網路上。</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2143,8 +2143,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>MTC Core is shutting down...</source>
-        <translation>位元幣核心正在關閉中...</translation>
+        <source>EWK Core is shutting down...</source>
+        <translation>EWK幣核心正在關閉中...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2166,8 +2166,8 @@ Address: %4
         <translation>你可以用自己的位址簽署訊息，來證明你對位址的所有權。但是請小心，不要簽署語意含糊不清的內容，因為釣魚式詐騙可能會用騙你簽署的手法來冒充是你。只有在語句中的細節你都同意時才簽署。</translation>
     </message>
     <message>
-        <source>The MTC address to sign the message with</source>
-        <translation>用來簽署訊息的位元幣位址</translation>
+        <source>The EWK address to sign the message with</source>
+        <translation>用來簽署訊息的EWK幣位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2198,8 +2198,8 @@ Address: %4
         <translation>複製目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MTC address</source>
-        <translation>簽署這個訊息來證明這個位元幣位址是你的</translation>
+        <source>Sign the message to prove you own this EWK address</source>
+        <translation>簽署這個訊息來證明這個EWK幣位址是你的</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2222,12 +2222,12 @@ Address: %4
         <translation>請在下面輸入簽署的位址，訊息(請確定完整複製了所包含的換行，空格，跳位符號等等)，以及簽章，來驗證這個訊息。請小心，除了訊息內容以外，不要對簽章本身過度解讀，以避免被用「中間人攻擊法」詐騙。</translation>
     </message>
     <message>
-        <source>The MTC address the message was signed with</source>
-        <translation>簽署這個訊息的位元幣位址</translation>
+        <source>The EWK address the message was signed with</source>
+        <translation>簽署這個訊息的EWK幣位址</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MTC address</source>
-        <translation>驗證這個訊息來確定是用指定的位元幣位址簽署的</translation>
+        <source>Verify the message to ensure it was signed with the specified EWK address</source>
+        <translation>驗證這個訊息來確定是用指定的EWK幣位址簽署的</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2293,12 +2293,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MTC Core</source>
-        <translation>位元幣核心</translation>
+        <source>EWK Core</source>
+        <translation>EWK幣核心</translation>
     </message>
     <message>
-        <source>The MTC Core developers</source>
-        <translation>位元幣核心開發人員</translation>
+        <source>The EWK Core developers</source>
+        <translation>EWK幣核心開發人員</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2781,7 +2781,7 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>mtc-core</name>
+    <name>ewk-core</name>
     <message>
         <source>Options:</source>
         <translation>選項:</translation>
@@ -2848,8 +2848,8 @@ Address: %4
         <translation>這是個還沒發表的測試版本 - 使用請自負風險 - 請不要用來開採或商業應用</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. MTC Core is probably already running.</source>
-        <translation>沒辦法繫結在這台電腦上的 %s 。位元幣核心可能已經在執行了。</translation>
+        <source>Unable to bind to %s on this computer. EWK Core is probably already running.</source>
+        <translation>沒辦法繫結在這台電腦上的 %s 。EWK幣核心可能已經在執行了。</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2857,7 +2857,7 @@ Address: %4
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>警告: 位元幣網路對於區塊鏈結的決定目前有分歧！看來有些礦工會有問題。</translation>
+        <translation>警告: EWK幣網路對於區塊鏈結的決定目前有分歧！看來有些礦工會有問題。</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
@@ -2977,11 +2977,11 @@ Address: %4
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>設定資料庫快取大小是多少百萬位元組(MB，範圍: %d 到 %d，預設值: %d)</translation>
+        <translation>設定資料庫快取大小是多少百萬EWK組(MB，範圍: %d 到 %d，預設值: %d)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>設定區塊大小上限成多少位元組(預設值: %d)</translation>
+        <translation>設定區塊大小上限成多少EWK組(預設值: %d)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
@@ -3032,12 +3032,12 @@ Address: %4
         <translation>和指定的位址繫結以聽候 JSON-RPC 連線。IPv6 請用 [主機]:通訊埠 這種格式。這個選項可以設定多次。(預設值: 跟所有網路界面上的位址繫結)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. MTC Core is probably already running.</source>
-        <translation>沒辦法鎖定資料目錄 %s。位元幣核心可能已經在執行了。</translation>
+        <source>Cannot obtain a lock on data directory %s. EWK Core is probably already running.</source>
+        <translation>沒辦法鎖定資料目錄 %s。EWK幣核心可能已經在執行了。</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
-        <translation>對沒付手續費的交易持續限制每分鐘內最多只能有 &lt;n&gt;*1000 個位元組(預設值: %u)</translation>
+        <translation>對沒付手續費的交易持續限制每分鐘內最多只能有 &lt;n&gt;*1000 個EWK組(預設值: %u)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3057,11 +3057,11 @@ Address: %4
     </message>
     <message>
         <source>Fees (in ATD/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>當處理轉發的交易時，如果每千位元組(Kb)的手續費比這個值低，就視為沒付手續費 (預設值: %s)</translation>
+        <translation>當處理轉發的交易時，如果每千EWK組(Kb)的手續費比這個值低，就視為沒付手續費 (預設值: %s)</translation>
     </message>
     <message>
         <source>Fees (in ATD/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>當製造交易時，如果每千位元組(Kb)的手續費比這個值低，就視為沒付手續費 (預設值: %s)</translation>
+        <translation>當製造交易時，如果每千EWK組(Kb)的手續費比這個值低，就視為沒付手續費 (預設值: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3089,7 +3089,7 @@ Address: %4
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>設定高優先度或低手續費的交易資料大小上限成多少位元組(預設值: %d)</translation>
+        <translation>設定高優先度或低手續費的交易資料大小上限成多少EWK組(預設值: %d)</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
@@ -3100,27 +3100,27 @@ Address: %4
         <translation>此產品也包含了由 OpenSSL Project 所開發的 OpenSSL Toolkit 軟體 &lt;https://www.openssl.org/&gt;, 和由 Eric Young 撰寫的加解密軟體，以及由 Thomas Bernard 所撰寫的 UPnP 軟體。</translation>
     </message>
     <message>
-        <source>To use mtcd, or the -server option to mtc-qt, you must set an rpcpassword in the configuration file:
+        <source>To use ewkd, or the -server option to ewk-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=mtcrpc
+rpcuser=ewkrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "MTC Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "EWK Alert" admin@foo.com
 </source>
-        <translation>要使用 mtcd, 或是對 mtc-qt 指定 -server 選項，你必須要在以下設定檔中設定 RPC 密碼(選項: rpcpassword):
+        <translation>要使用 ewkd, 或是對 ewk-qt 指定 -server 選項，你必須要在以下設定檔中設定 RPC 密碼(選項: rpcpassword):
 %s
 建議你使用以下隨機產生的密碼:
-rpcuser=mtcrpc
+rpcuser=ewkrpc
 rpcpassword=%s
 (你不用記住這個密碼)
 注意使用者名稱(rpcuser)和密碼(rpcpassword)不可以相同！
 如果設定檔還不存在，請在新增時，設定檔案權限為"只有主人才能讀取"。
 也建議你設定警示通知，這樣發生問題時你才會被通知到；
-比如說設定: alertnotify=echo %%s | mail -s "MTC Alert" admin@foo.com
+比如說設定: alertnotify=echo %%s | mail -s "EWK Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3128,8 +3128,8 @@ rpcpassword=%s
         <translation>警告: -maxtxfee 設定了很高的金額！這可是一次交易就有可能付出的最高手續費。</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong MTC Core will not work properly.</source>
-        <translation>警告: 請檢查電腦日期和時間是否正確！位元幣核心沒辦法在時鐘不準的情況下正常運作。</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong EWK Core will not work properly.</source>
+        <translation>警告: 請檢查電腦日期和時間是否正確！EWK幣核心沒辦法在時鐘不準的情況下正常運作。</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3148,16 +3148,16 @@ rpcpassword=%s
         <translation>透過 SOCKS5 代理伺服器連線</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The MTC Core Developers</source>
-        <translation>版權為位元幣核心開發人員自西元 2015 至 %i 年起所有</translation>
+        <source>Copyright (C) 2015-%i The EWK Core Developers</source>
+        <translation>版權為EWK幣核心開發人員自西元 2015 至 %i 年起所有</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>沒辦法解析 -rpcbind 參數值 %s 為網路位址</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of MTC Core</source>
-        <translation>載入 wallet.dat 檔案時發生錯誤: 這個錢包需要新版的位元幣核心</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of EWK Core</source>
+        <translation>載入 wallet.dat 檔案時發生錯誤: 這個錢包需要新版的EWK幣核心</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3169,15 +3169,15 @@ rpcpassword=%s
     </message>
     <message>
         <source>Fee (in ATD/kB) to add to transactions you send (default: %s)</source>
-        <translation>交易付款時每千位元組(kB)的交易手續費 (預設值: %s)</translation>
+        <translation>交易付款時每千EWK組(kB)的交易手續費 (預設值: %s)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>資訊</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. MTC Core is shutting down.</source>
-        <translation>初始化時的基本檢查失敗了。位元幣核心就要關閉了。</translation>
+        <source>Initialization sanity check failed. EWK Core is shutting down.</source>
+        <translation>初始化時的基本檢查失敗了。EWK幣核心就要關閉了。</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3212,8 +3212,8 @@ rpcpassword=%s
         <translation>節點轉發選項:</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the MTC Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL 選項: (SSL 設定程序請見 MTC Wiki)</translation>
+        <source>RPC SSL options: (see the EWK Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL 選項: (SSL 設定程序請見 EWK Wiki)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3265,11 +3265,11 @@ rpcpassword=%s
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>根據交易手續費準則，本交易的位元量過大</translation>
+        <translation>根據交易手續費準則，本交易的EWK量過大</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>交易位元量太大</translation>
+        <translation>交易EWK量太大</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
@@ -3284,8 +3284,8 @@ rpcpassword=%s
         <translation>JSON-RPC 連線使用者名稱</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart MTC Core to complete</source>
-        <translation>錢包需要重寫: 請重新啓動位元幣核心來完成</translation>
+        <source>Wallet needed to be rewritten: restart EWK Core to complete</source>
+        <translation>錢包需要重寫: 請重新啓動EWK幣核心來完成</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -3357,7 +3357,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
-        <translation>每當累積到 &lt;n&gt; 百萬位元組(MB)時，才將資料庫的變動從記憶體暫存池中寫進磁碟紀錄檔(預設值: %u)</translation>
+        <translation>每當累積到 &lt;n&gt; 百萬EWK組(MB)時，才將資料庫的變動從記憶體暫存池中寫進磁碟紀錄檔(預設值: %u)</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
@@ -3365,7 +3365,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
-        <translation>開採區塊的時候，紀錄交易的優先度以及每千位元組(kB)的手續費(預設值: %u)</translation>
+        <translation>開採區塊的時候，紀錄交易的優先度以及每千EWK組(kB)的手續費(預設值: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
@@ -3409,7 +3409,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>生產位元幣(預設值: %u)</translation>
+        <translation>生產EWK幣(預設值: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
@@ -3441,11 +3441,11 @@ rpcpassword=%s
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>每個連線的接收緩衝區大小上限為 &lt;n&gt;*1000 個位元組(預設值: %u)</translation>
+        <translation>每個連線的接收緩衝區大小上限為 &lt;n&gt;*1000 個EWK組(預設值: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>每個連線的傳送緩衝區大小上限為 &lt;n&gt;*1000 個位元組(預設值: %u)</translation>
+        <translation>每個連線的傳送緩衝區大小上限為 &lt;n&gt;*1000 個EWK組(預設值: %u)</translation>
     </message>
     <message>
         <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
@@ -3481,7 +3481,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
-        <translation>設定區塊大小下限為多少位元組(預設值: %u)</translation>
+        <translation>設定區塊大小下限為多少EWK組(預設值: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>

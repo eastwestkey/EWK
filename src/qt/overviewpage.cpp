@@ -47,7 +47,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate(): QAbstractItemDelegate(), unit(BitcoinUnits::MTC)
+    TxViewDelegate(): QAbstractItemDelegate(), unit(BitcoinUnits::EWK)
     {
 
     }
@@ -339,7 +339,7 @@ void OverviewPage::setWalletModel(WalletModel *model)
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default ("MTC")
+    // update the display unit, to not use the default ("EWK")
     updateDisplayUnit();
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2014 The MTC developers
+// Copyright (c) 2011-2014 The EWK developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -741,7 +741,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid MTC address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid EWK address"));
         }
         else // Valid address
         {

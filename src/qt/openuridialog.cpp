@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2013 The MTC developers
+// Copyright (c) 2011-2013 The EWK developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -16,7 +16,7 @@ OpenURIDialog::OpenURIDialog(QWidget *parent) :
 {
     ui->setupUi(this);
 #if QT_VERSION >= 0x040700
-    ui->uriEdit->setPlaceholderText("mtc:");
+    ui->uriEdit->setPlaceholderText("ewk:");
 #endif
 }
 
@@ -48,5 +48,5 @@ void OpenURIDialog::on_selectFileButton_clicked()
     if(filename.isEmpty())
         return;
     QUrl fileUri = QUrl::fromLocalFile(filename);
-    ui->uriEdit->setText("mtc:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
+    ui->uriEdit->setText("ewk:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
 }
