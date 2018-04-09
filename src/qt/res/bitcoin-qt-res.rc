@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "MTC"
-            VALUE "FileDescription",    "MTC Core (OSS GUI client for MTC)"
+            VALUE "CompanyName",        "EWK"
+            VALUE "FileDescription",    "EWK Core (OSS GUI client for EWK)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "mtc-qt"
+            VALUE "InternalName",       "ewk-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "mtc-qt.exe"
-            VALUE "ProductName",        "MTC Core"
+            VALUE "OriginalFilename",   "ewk-qt.exe"
+            VALUE "ProductName",        "EWK Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
